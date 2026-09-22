@@ -1,0 +1,96 @@
+{
+ "seq": "office_s1_00h",
+ "name": "office_00h",
+ "dir": "uHumans2_office_s1_00h",
+ "generated": "2026-09-21 22:52:02",
+ "generated_epoch": 1789998722.4223154,
+ "scored": "2026-09-21 22:15:16",
+ "stats": [
+  {
+   "key": "recall_3d_min_px",
+   "label": "트랙 재현율 (frontend 최소 크기 이상)",
+   "full": "트랙 재현율 (frontend 최소 크기 이상)",
+   "value": "86.5%",
+   "rank": "head"
+  },
+  {
+   "key": "recall_3d",
+   "label": "트랙 재현율 (전체 GT 트랙)",
+   "full": "트랙 재현율 (전체 GT 트랙)",
+   "value": "60.1%",
+   "rank": "sub"
+  },
+  {
+   "key": "recall_3d_kind",
+   "label": "정적 물체 / 사람",
+   "full": "정적 물체 / 사람",
+   "value": "86.5% / –",
+   "rank": ""
+  },
+  {
+   "key": "p_tau",
+   "label": "P@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "full": "P@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "value": "96.2%",
+   "rank": ""
+  },
+  {
+   "key": "r_tau",
+   "label": "R@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "full": "R@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "value": "94.0%",
+   "rank": ""
+  },
+  {
+   "key": "recall_2d",
+   "label": "2D 재현율 @IoU0.5",
+   "full": "2D 재현율 @IoU0.5 (2D GT 인스턴스 · 라벨 256칸 이상)",
+   "value": "61.7%",
+   "rank": ""
+  },
+  {
+   "key": "pq",
+   "label": "PQ",
+   "full": "PQ (2D GT 인스턴스 · 라벨 256칸 이상)",
+   "value": "0.34",
+   "rank": ""
+  },
+  {
+   "key": "idf1",
+   "label": "IDF1",
+   "full": "IDF1 (정적 GT 트랙)",
+   "value": "0.31",
+   "rank": ""
+  },
+  {
+   "key": "hota",
+   "label": "HOTA_α",
+   "full": "HOTA_α (정적 GT 트랙)",
+   "value": "0.39",
+   "rank": ""
+  },
+  {
+   "key": "n_kf",
+   "label": "keyframe 수",
+   "full": "keyframe 수 (publish 된 keyframe)",
+   "value": "1007",
+   "rank": ""
+  }
+ ],
+ "n_obj": 294,
+ "n_kf": 1007,
+ "source": {
+  "generated": "2026-09-21 22:52:02",
+  "generated_epoch": 1789998722.4223154,
+  "steps": {
+   "labels": "7ef11f29508eb8c0",
+   "score3d": "db8ba01c98b0dd22",
+   "mot": "55703f8eeb5a9979",
+   "difficulty": "82a3c026256e15d2",
+   "seg2d": "55986790cdff7d3d",
+   "geometry": "28b2cf9bed7c53e6"
+  },
+  "scored": "2026-09-21 22:15:16",
+  "summary_mtime": 1789996963.077
+ }
+}

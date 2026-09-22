@@ -1,0 +1,96 @@
+{
+ "seq": "apartment_s1_02h",
+ "name": "apartment_02h",
+ "dir": "uHumans2_apartment_s1_02h",
+ "generated": "2026-09-21 22:51:53",
+ "generated_epoch": 1789998713.333461,
+ "scored": "2026-09-21 22:11:45",
+ "stats": [
+  {
+   "key": "recall_3d_min_px",
+   "label": "트랙 재현율 (frontend 최소 크기 이상)",
+   "full": "트랙 재현율 (frontend 최소 크기 이상)",
+   "value": "80.6%",
+   "rank": "head"
+  },
+  {
+   "key": "recall_3d",
+   "label": "트랙 재현율 (전체 GT 트랙)",
+   "full": "트랙 재현율 (전체 GT 트랙)",
+   "value": "43.2%",
+   "rank": "sub"
+  },
+  {
+   "key": "recall_3d_kind",
+   "label": "정적 물체 / 사람",
+   "full": "정적 물체 / 사람",
+   "value": "82.6% / 64.5%",
+   "rank": ""
+  },
+  {
+   "key": "p_tau",
+   "label": "P@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "full": "P@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "value": "96.2%",
+   "rank": ""
+  },
+  {
+   "key": "r_tau",
+   "label": "R@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "full": "R@20cm (매칭된 예측 검출 · 같은 keyframe GT 표면)",
+   "value": "100.0%",
+   "rank": ""
+  },
+  {
+   "key": "recall_2d",
+   "label": "2D 재현율 @IoU0.5",
+   "full": "2D 재현율 @IoU0.5 (2D GT 인스턴스 · 라벨 256칸 이상)",
+   "value": "56.5%",
+   "rank": ""
+  },
+  {
+   "key": "pq",
+   "label": "PQ",
+   "full": "PQ (2D GT 인스턴스 · 라벨 256칸 이상)",
+   "value": "0.42",
+   "rank": ""
+  },
+  {
+   "key": "idf1",
+   "label": "IDF1",
+   "full": "IDF1 (정적 GT 트랙)",
+   "value": "0.39",
+   "rank": ""
+  },
+  {
+   "key": "hota",
+   "label": "HOTA_α",
+   "full": "HOTA_α (정적 GT 트랙)",
+   "value": "0.44",
+   "rank": ""
+  },
+  {
+   "key": "n_kf",
+   "label": "keyframe 수",
+   "full": "keyframe 수 (publish 된 keyframe)",
+   "value": "214",
+   "rank": ""
+  }
+ ],
+ "n_obj": 399,
+ "n_kf": 214,
+ "source": {
+  "generated": "2026-09-21 22:51:53",
+  "generated_epoch": 1789998713.333461,
+  "steps": {
+   "labels": "c01e0fcafcdb40bc",
+   "score3d": "5db6ea1caa3effc5",
+   "mot": "1f009965c31b561d",
+   "difficulty": "ce98ee0ce39d9ebb",
+   "seg2d": "5d94992933e69a0b",
+   "geometry": "84eb01bd2cc06159"
+  },
+  "scored": "2026-09-21 22:11:45",
+  "summary_mtime": 1789996963.077
+ }
+}
